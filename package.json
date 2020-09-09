@@ -1,21 +1,17 @@
 {
-  "name": "datalumni-depchecker",
+  "name": "datalumni-front",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Datalumni Platform front-end",
+  "author": "Datalumni Dev Team",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/waldeck-dev/datalumni-depchecker.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/waldeck-dev/datalumni-depchecker/issues"
-  },
-  "homepage": "https://github.com/waldeck-dev/datalumni-depchecker#readme",
   "dependencies": {
     "@ckeditor/ckeditor5-build-decoupled-document": "^18.0.0",
     "@ckeditor/ckeditor5-image": "^18.0.0",
@@ -26,9 +22,9 @@
     "@nuxtjs/sentry": "^3.3.1",
     "apexcharts": "^3.18.0",
     "esm": "^3.2.25",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "moment": "^2.24.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.14.4",
     "nuxt-buefy": "^0.3.2",
     "nuxt-i18n": "^6.3.0",
     "pm2": "^4.4.0",
