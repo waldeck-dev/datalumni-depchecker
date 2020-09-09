@@ -1,0 +1,62 @@
+{
+  "name": "datalumni-depchecker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldeck-dev/datalumni-depchecker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waldeck-dev/datalumni-depchecker/issues"
+  },
+  "homepage": "https://github.com/waldeck-dev/datalumni-depchecker#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-decoupled-document": "^18.0.0",
+    "@ckeditor/ckeditor5-image": "^18.0.0",
+    "@ckeditor/ckeditor5-upload": "^18.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/sentry": "^3.3.1",
+    "apexcharts": "^3.18.0",
+    "esm": "^3.2.25",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2",
+    "nuxt-i18n": "^6.3.0",
+    "pm2": "^4.4.0",
+    "tiptap": "^1.27.1",
+    "tiptap-extensions": "^1.29.1",
+    "uuid": "^7.0.2",
+    "vue-advanced-cropper": "^0.13.2",
+    "vue-apexcharts": "^1.5.3",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.9.0",
+    "jest-serializer-vue": "^2.0.2",
+    "prettier": "^1.16.4",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-jest": "^3.0.5"
+  }
+}
