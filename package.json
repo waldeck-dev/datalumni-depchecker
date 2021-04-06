@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-decoupled-document": "^18.0.0",
-    "@ckeditor/ckeditor5-image": "^18.0.0",
+    "@ckeditor/ckeditor5-image": "^27.0.0",
     "@ckeditor/ckeditor5-upload": "^18.0.0",
     "@ckeditor/ckeditor5-vue": "^1.0.1",
     "@nuxtjs/axios": "^5.3.6",
